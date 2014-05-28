@@ -12,7 +12,7 @@
         <ul class="site-menu">
         <% for page in @getCollection("pages").findAll({}, [{order:1}]).toJSON(): %>
             <li class="site-menu__item <%- 'site-menu__item_current' if page.id == @document.id %>">
-                <a class="link" href="<%- page.url %>"><%- page.title %></a>
+                <a class="link" href="<%- page.url %>"><%- page.menuTitle or page.title %></a>
             </li>
         <% end %>
         </ul>

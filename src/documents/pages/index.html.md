@@ -1,5 +1,6 @@
 ---
-title: Awesome blog based on Docpad
+title: Docpad-based blog with taste of BEM
+menuTitle: Index
 layout: index
 order: 1
 ---
