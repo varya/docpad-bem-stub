@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<h1><%- @document.title %></h1>
+<h1 class="page__title"><%- @document.title %></h1>
 <%- @content %>
 <ul class="posts-list">
 <% for post in @getCollection("posts").findAll({}, [{date:-1}]).toJSON().slice(0,20): %>
