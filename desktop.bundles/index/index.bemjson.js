@@ -44,7 +44,38 @@
             ]
         },
         {
-            block: 'posts-list'
+            elem: 'content',
+            content: [
+                {
+                    block: 'posts-list',
+                    content: [
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    url: '#',
+                                    mix: [{ block: 'posts-list', elem: 'link'}],
+                                    content: 'Hello world!'
+                                },
+                                'Text'
+                            ]
+                        },
+                        {
+                            elem: 'item',
+                            content: [
+                                {
+                                    block: 'link',
+                                    url: '#',
+                                    mix: [{ block: 'posts-list', elem: 'link'}],
+                                    content: 'Hello world!'
+                                },
+                                'Text'
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         { elem: 'js', url: 'index.min.js' }
     ]

@@ -5,3 +5,9 @@
     background: #eee;
     text-align: center;
 }
+.page__content
+{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
