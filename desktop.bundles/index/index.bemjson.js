@@ -10,26 +10,36 @@
     ],
     content:[
         {
-            block: 'site-menu',
+            block: 'header',
             content: [
                 {
-                    elem: 'item',
-                    mods: {
-                        current: true
-                    },
-                    content: {
-                        block: 'link',
-                        url: '#',
-                        content: 'Index'
-                    }
+                    block: 'site-menu',
+                    content: [
+                        {
+                            elem: 'item',
+                            mods: {
+                                current: true
+                            },
+                            content: {
+                                block: 'link',
+                                url: '#',
+                                content: 'Index'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            content: {
+                                block: 'link',
+                                url: '#',
+                                content: 'About'
+                            }
+                        }
+                    ]
                 },
                 {
-                    elem: 'item',
-                    content: {
-                        block: 'link',
-                        url: '#',
-                        content: 'About'
-                    }
+                    block: 'page',
+                    elem: 'title',
+                    content: 'Page title'
                 }
             ]
         },

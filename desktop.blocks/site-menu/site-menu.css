@@ -3,6 +3,7 @@
     font-size: 1.2em;
     display: table;
     list-style: none;
+    margin-left: -2em;
 }
 
 .site-menu__item
