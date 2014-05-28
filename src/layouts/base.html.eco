@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title><%= @pageTitle() %></title>
+    <%- @getBlock('styles').add([@getPageCSSPath()]).toHTML() %>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+</head>
+<body>
+    <%- @document.layout %>
+    <header class="header">
+        <ul class="menu">
+        <% for post in @getCollection("pages").findAll({}, [{order:1}]).toJSON(): %>
+            <li class="menu__item">
+                <a class="menu__link link" href="<%- post.url %>"><%- post.title %></a>
+            </li>
+        <% end %>
+        </ul>
+    </header>
+    <%- @content %>
+    <footer class="footer">
+    </footer>
+    <%- @getBlock('scripts').add([@getPageJSPath()]).toHTML() %>
+</body>
+</html>
