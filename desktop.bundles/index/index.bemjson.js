@@ -35,17 +35,17 @@
                             }
                         }
                     ]
-                },
-                {
-                    block: 'page',
-                    elem: 'title',
-                    content: 'Page title'
                 }
             ]
         },
         {
             elem: 'content',
             content: [
+                {
+                    block: 'page',
+                    elem: 'title',
+                    content: 'Page title'
+                },
                 {
                     block: 'posts-list',
                     content: [

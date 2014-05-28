@@ -9,6 +9,6 @@
 .page__content
 {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 2em;
     text-align: left;
 }
