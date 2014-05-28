@@ -1,4 +1,6 @@
-body
+.page
 {
+    font: 14px/1.2em;
+    font-family: "Arvo", serif;
     background: #eee;
 }
