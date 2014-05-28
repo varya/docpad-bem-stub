@@ -77,6 +77,13 @@
                 }
             ]
         },
+        {
+            block: 'footer',
+            content: {
+                elem: 'inner',
+                content: 'footer content'
+            }
+        },
         { elem: 'js', url: 'index.min.js' }
     ]
 })

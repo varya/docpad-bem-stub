@@ -1,0 +1,14 @@
+.footer
+{
+    display: block;
+    background-color: #DDD;
+    padding: 1em;
+}
+.footer__inner
+{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    color: #666;
+    font-size: 0.8em;
+}
