@@ -11,6 +11,11 @@ module.exports = function(grunt) {
                 targets: 'desktop.bundles'
             }
         },
+        shell: {
+            enb: {
+                command: './node_modules/enb/bin/enb make'
+            }
+        },
         copy: {
             blocks: {
                 files: {
@@ -27,5 +32,6 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-bem');
+    grunt.loadNpmTasks('grunt-shell');
 
 }
