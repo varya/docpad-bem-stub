@@ -1,6 +1,6 @@
 ---
-title: Hello world!
+title: Check out and set up
 ---
-My very first post here. Hello!
+This blog is easy to set up.
 <!-- cut -->
 Text after cut.
