@@ -10,7 +10,7 @@ module.exports = function(config) {
         require('enb/techs/deps-old'),
         require('enb/techs/files'),
         require('enb-bemxjst/techs/bemhtml-old'),
-        require('enb-xjst/techs/html-from-bemjson'),
+        require('enb-bemxjst/techs/html-from-bemjson'),
         require('enb/techs/js'),
         require('enb/techs/css'),
         [ require('enb/techs/file-copy'), { sourceTarget: '?.js', destTarget: '?.min.js' } ],
