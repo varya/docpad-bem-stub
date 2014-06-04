@@ -13,6 +13,7 @@ plugins:
         generateAfter: ["shell", "copy"]
     ghpages:
         deployRemote: 'origin'
+        deployBranch: 'master'
 
 templateData:
 
