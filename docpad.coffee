@@ -11,6 +11,8 @@ plugins:
     grunt:
         writeAfter: false
         generateAfter: ["shell", "copy"]
+    ghpages:
+        deployRemote: 'origin'
 
 templateData:
 
